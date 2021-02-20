@@ -1,5 +1,6 @@
 import logo from './temp-banner.png';
 import './App.css';
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <li>Dr. Sarah Ficke</li>
                 <li>Sarah Donner & Kittens Slay Dragons</li>
                 <li>Molly Lewis</li>
+                <li>Andrew Ferguson</li>
                 <li>Pat Rothfuss</li>
                 <li>Dana Pellebon</li>
                 <li>Em Lazer-Walker</li>
@@ -25,32 +27,57 @@ function App() {
             </ul>
             <h1>Schedule</h1>
             <p>All times in Pacific time (UTC -8:00)</p>
-            <table>
-                <tr>
-                    <td>11:30am</td>
-                    <td>Stream Kickoff!</td>
-                </tr>
-                <tr>
-                    <td>12:30pm</td>
-                    <td>Bridgerton discussion with Mary Robinette Kowal & Dr. Sarah Ficke</td>
-                </tr>
-                <tr>
-                    <td>2pm</td>
-                    <td>How to pick a charity to support with Pat Rothfuss & Dana Pellebon</td>
-                </tr>
-                <tr>
-                    <td>3pm</td>
-                    <td>Designing virtual social spaces with Em Lazer-Walker</td>
-                </tr>
-                <tr>
-                    <td>4pm</td>
-                    <td>Music time! Featuring Sarah Donner, Kittens Slay Dragons, and Molly Lewis</td>
-                </tr>
-                <tr>
-                    <td>5pm</td>
-                    <td>A tour of VR games I've made hosted by Molly Lewis, featuring Coriander Dickenson</td>
-                </tr>
-            </table>
+            <Timeline lineColor={'#ddd'} className={"App-body"}>
+                <TimelineItem
+                    className={"TimelineItem"}
+                    dateText={"11:30am-12:30pm"}
+                    dateInnerStyle={{ background: '#00c4cc' }}
+                    bodyContainerStyle={{ color: 'white' }}
+                       >
+                    <h3>Stream kickoff!</h3>
+                    <p>Explaining what we're doing here</p>
+                    </TimelineItem>
+                <TimelineItem dateText={"12:30pm-2:00pm"}
+                              dateInnerStyle={{ background: '#00c4cc' }}
+                              bodyContainerStyle={{ color: 'white' }}
+                >
+                    <h3>Bridgerton: Historical Fantasy vs. Reality in Romance</h3>
+                    <h4>Mary Robinette Kowal, Dr. Sarah Ficke</h4>
+                    <p>Discussing the Netflix show, the books it was based on, and aspects like accuracy and diversity in historical romance.</p>
+                    </TimelineItem>
+                <TimelineItem dateText={"2:00pm-3:00pm"}
+                              dateInnerStyle={{ background: '#00c4cc' }}
+                              bodyContainerStyle={{ color: 'white' }}
+                >
+                    <h3>How to pick a charity to support</h3>
+                    <h4>Pat Rothfuss, Dana Pellebon</h4>
+                    <p></p>
+                </TimelineItem>
+                <TimelineItem dateText={"3:00pm-4:00pm"}
+                              dateInnerStyle={{ background: '#00c4cc' }}
+                              bodyContainerStyle={{ color: 'white' }}
+                >
+                    <h3>Designing virtual social spaces</h3>
+                    <h4>Em Lazer-Walker</h4>
+                    <p></p>
+                </TimelineItem>
+                <TimelineItem dateText={"4:00pm-5:00pm"}
+                              dateInnerStyle={{ background: '#00c4cc' }}
+                              bodyContainerStyle={{ color: 'white' }}
+                >
+                    <h3>Music time!</h3>
+                    <h4>Sarah Donner, Kittens Slay Dragons, Molly Lewis</h4>
+                    <p></p>
+                </TimelineItem>
+                <TimelineItem dateText={"5:00pm-6:00pm"}
+                              dateInnerStyle={{ background: '#00c4cc' }}
+                              bodyContainerStyle={{ color: 'white' }}
+                >
+                    <h3>A tour of VR games I've made</h3>
+                    <h4>Molly Lewis, Andrew Ferguson, Coriander Dickenson</h4>
+                    <p></p>
+                </TimelineItem>
+            </Timeline>
         </div>
     </div>
   );
