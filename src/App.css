@@ -29,6 +29,47 @@ h3 {
   font-size: 2em;
 }
 
+.list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  max-width: 800px;
+}
+
+.item {
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  padding: 0.5rem;
+  text-align: center;
+  list-style-type: none;
+}
+
+.item a {
+  display: block;
+  background-color: #00c4cc;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+}
+
+.textBlock {
+  max-width: 500px;
+}
+
 a {
   color: #fdffdc;
 }
