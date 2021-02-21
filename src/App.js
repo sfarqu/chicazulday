@@ -24,6 +24,8 @@ function App() {
             <div className={"container"}>
                 <ul className={"list"}>
                     <li className={"item"}><a href={"https://twitter.com/MaryRobinette"}>Mary Robinette Kowal</a></li>
+                    <li className={"item"}><a href={"#"}>Suprise Guest!</a></li>
+                    <li className={"item"}><a href={"#"}>Surprise Guest!</a></li>
                     <li className={"item"}><a href={"https://twitter.com/DameMystery"}>Dr. Sarah Ficke</a></li>
                     <li className={"item"}><a href={"https://twitter.com/sarahdonner"}>Sarah Donner</a></li>
                     <li className={"item"}><a href={"https://twitter.com/meowslaydragons"}>Kittens Slay Dragons</a></li>
@@ -40,19 +42,19 @@ function App() {
             <Timeline lineColor={'#ddd'} className={"App-body"}>
                 <TimelineItem
                     className={"TimelineItem"}
-                    dateText={"11:30am-12:30pm"}
+                    dateText={"11:30am"}
                     dateInnerStyle={{ background: '#00c4cc' }}
                     bodyContainerStyle={{ color: 'white' }}
                        >
                     <h3>Stream kickoff!</h3>
                     <p>An explanation of what this all is and maybe a few unscheduled guests!</p>
                     </TimelineItem>
-                <TimelineItem dateText={"12:30pm-2:00pm"}
+                <TimelineItem dateText={"11:45pm-1:00pm"}
                               dateInnerStyle={{ background: '#00c4cc' }}
                               bodyContainerStyle={{ color: 'white' }}
                 >
                     <h3>Bridgerton: Historical Fantasy vs. Reality in Romance</h3>
-                    <h4>Mary Robinette Kowal, Dr. Sarah Ficke</h4>
+                    <h4>Mary Robinette Kowal, Dr. Sarah Ficke, and Surpise Guests!</h4>
                     <p>Discussing the Netflix show, the books it was based on, and aspects like accuracy and diversity in historical romance.</p>
                     </TimelineItem>
                 <TimelineItem dateText={"2:00pm-3:00pm"}
