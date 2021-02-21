@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chiron Browser Source</title>
+    <link href="chiron.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrap">
+    <div class="goal-cont">
+        <div id="icon"></div>
+        <div id="name">Test Goal</div>
+        <div id="goal-bar" style="width: 0;"></div>
+        <div id="goal-bar2"></div>
+        <div id="pronouns">$0/$100 | ends in 2 days</div>
+    </div>
+</div>
+<script>
+    let query = location.search;
+    let params = new URLSearchParams(query);
+
+    document.getElementById("name").innerText = params.has("name") ? params.get("name") : "Unknown";
+    document.getElementById("pronouns").innerText = params.has("pronouns") ? params.get("pronouns") : "";
+</script>
+</body>
+</html>

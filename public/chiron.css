@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900');
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+}
+
+#pronouns {
+    justify-content: space-between;
+    position: absolute;
+    left: 64px;
+    top: 27px;
+    width: 436px;
+    height: 30px;
+    padding: 12px 0 0 6px;
+    border-radius: 0 0 14px 0;
+    background: rgba(255, 255, 255, .4);
+    color: #28184f;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.goal-cont {
+    color: #28184f;
+    position: relative;
+    opacity: 1;
+}
+
+#icon {
+    width: 56px;
+    height: 47px;
+    background-color: #28184f;
+    border-radius: 45px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#icon::before {
+    content: "";
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    background: url(https://s3.us-east-2.amazonaws.com/streamlabs-designers/turquoise/1582322150goal-bar-icon.png) no-repeat;
+    z-index: 6;
+}
+
+#name{
+    position: absolute;
+    z-index: 3;
+    left: 70px;
+    top: 14px;
+    width: 445px;
+    height: 18px;
+    color: #11092b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#goal-bar {
+    position: relative;
+    z-index: 2;
+    height: 28px;
+    border-radius: 0 14px 14px 0;
+    box-sizing: border-box;
+    background: #61afca;
+    max-width: 435px;
+    top: 10px;
+    left: 65px;
+}
+
+#goal-bar2 {
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    left: 65px;
+    top: 10px;
+    width: 435px;
+    height: 28px;
+    border-radius: 0 14px 14px 0;
+    background-color: white;
+}
