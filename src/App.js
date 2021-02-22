@@ -33,6 +33,7 @@ function App() {
                     <li className={"item"}><a href={"https://twitter.com/warandpeace"}>Andrew Ferguson</a></li>
                     <li className={"item"}><a href={"https://twitter.com/PatrickRothfuss"}>Pat Rothfuss</a></li>
                     <li className={"item"}><a href={"#"}>Dana Pellebon</a></li>
+                    <li className={"item"}><a href={"https://twitter.com/adamthesak"}>Adam Sakellerides</a></li>
                     <li className={"item"}><a href={"https://twitter.com/lazerwalker"}>Em Lazer-Walker</a></li>
                     <li className={"item"}><a href={"https://twitter.com/apsalar"}>Coriander Dickinson</a></li>
                 </ul>
@@ -54,9 +55,17 @@ function App() {
                               bodyContainerStyle={{ color: 'white' }}
                 >
                     <h3>Bridgerton: Historical Fantasy vs. Reality in Romance</h3>
-                    <h4>Mary Robinette Kowal, Dr. Sarah Ficke, and Surpise Guests!</h4>
-                    <p>Discussing the Netflix show, the books it was based on, and aspects like accuracy and diversity in historical romance.</p>
+                    <h4>Mary Robinette Kowal, Dr. Sarah Ficke, and Surprise Guests!</h4>
+                    <p>Discussing the Netflix show, the books it was based on, as well as costumes, accuracy, and diversity in historical romance.</p>
                     </TimelineItem>
+                <TimelineItem dateText={"1:00pm-1:30pm"}
+                              dateInnerStyle={{ background: '#00c4cc' }}
+                              bodyContainerStyle={{ color: 'white' }}
+                >
+                    <h3>Liminal Limits Live!</h3>
+                    <h4>Adam Sakellarides</h4>
+                    <p>Adam and Sara resurrect their short-lived podcast for a live, unprepared mini-episode!</p>
+                </TimelineItem>
                 <TimelineItem dateText={"2:00pm-3:00pm"}
                               dateInnerStyle={{ background: '#00c4cc' }}
                               bodyContainerStyle={{ color: 'white' }}
