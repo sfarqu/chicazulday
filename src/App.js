@@ -24,8 +24,8 @@ function App() {
             <div className={"container"}>
                 <ul className={"list"}>
                     <li className={"item"}><a href={"https://twitter.com/MaryRobinette"}>Mary Robinette Kowal</a></li>
-                    <li className={"item"}><a href={"#"}>Suprise Guest!</a></li>
-                    <li className={"item"}><a href={"#"}>Surprise Guest!</a></li>
+                    <li className={"item"}><a href={"https://twitter.com/clpolk"}>C.L. Polk</a></li>
+                    <li className={"item"}><a href={"https://twitter.com/ikyotochan"}>Kari Love</a></li>
                     <li className={"item"}><a href={"https://twitter.com/DameMystery"}>Dr. Sarah Ficke</a></li>
                     <li className={"item"}><a href={"https://twitter.com/sarahdonner"}>Sarah Donner</a></li>
                     <li className={"item"}><a href={"https://twitter.com/meowslaydragons"}>Kittens Slay Dragons</a></li>
@@ -39,6 +39,7 @@ function App() {
                 </ul>
             </div>
             <h1>Schedule</h1>
+            <h2>Tuesday, February 23</h2>
             <p>All times in Pacific time (UTC -8:00)</p>
             <Timeline lineColor={'#ddd'} className={"App-body"}>
                 <TimelineItem
@@ -55,7 +56,7 @@ function App() {
                               bodyContainerStyle={{ color: 'white' }}
                 >
                     <h3>Bridgerton: Historical Fantasy vs. Reality in Romance</h3>
-                    <h4>Mary Robinette Kowal, Dr. Sarah Ficke, and Surprise Guests!</h4>
+                    <h4>Mary Robinette Kowal, C.L. Polk, Dr. Sarah Ficke, and Kari Love</h4>
                     <p>Discussing the Netflix show, the books it was based on, as well as costumes, accuracy, and diversity in historical romance.</p>
                     </TimelineItem>
                 <TimelineItem dateText={"1:00pm-1:30pm"}
@@ -95,7 +96,7 @@ function App() {
                               bodyContainerStyle={{ color: 'white' }}
                 >
                     <h3>A tour of VR games I've made</h3>
-                    <h4>Molly Lewis, Andrew Ferguson, Coriander Dickenson</h4>
+                    <h4>Molly Lewis, Andrew Ferguson, Coriander Dickinson</h4>
                     <p>Check out Hat Island and a giant robot in space with my game jam co-creators and host Molly Lewis</p>
                 </TimelineItem>
             </Timeline>
