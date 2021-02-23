@@ -24,6 +24,7 @@ function App() {
                 <p className={"textBlock"}>Chicazul Day is a time to celebrate through acts of kindness to yourself and those around you.
                     Every year on this day I donate to the Greater Vancouver Food Bank—this year I am asking you to donate with me,
                     either to my charity or your favourite charity in your own community.</p>
+                <p className={"list"}><span className={"item"}><a href={"https://donate.tiltify.com/@chicazul/chicazul-day"}>Donate</a></span></p>
             </div>
 
             <h1>Special Guests</h1>
