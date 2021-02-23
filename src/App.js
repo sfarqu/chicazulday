@@ -1,6 +1,7 @@
 import logo from './temp-banner.png';
 import './App.css';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
+import {TwitchEmbed} from "react-twitch-embed";
 
 function App() {
   return (
@@ -12,7 +13,12 @@ function App() {
       </header>
         <div className={"App-body"}>
             <h1>Livestream</h1>
-            <a href={"https://www.twitch.tv/fabrefact"}>Twitch Stream</a>
+            <div className={"container"}>
+                <TwitchEmbed
+                    channel={"fabrefact"}
+                    withChat={false}
+                />
+            </div>
             <h1>What is this?</h1>
             <div className={"container"}>
                 <p className={"textBlock"}>Chicazul Day is a time to celebrate through acts of kindness to yourself and those around you.
